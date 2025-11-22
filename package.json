@@ -6,7 +6,7 @@
   "author": "Luis Campos<jluis@outlook.com>",
   "scripts": {
     "build": "tsc --skipLibCheck",
-    "start": "tsc --skipLibCheck && node ./build/config/server/index.js",
+    "start": "node build/config/server/index.js",
     "ts:watch": "tsc -w",
     "test": "NODE_ENV=test mocha -r ts-node/register test/index.js --exit"
   },
